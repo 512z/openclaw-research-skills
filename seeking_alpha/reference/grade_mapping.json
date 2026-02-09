@@ -1,0 +1,41 @@
+{
+  "_comment": "SA Quant grade number to letter grade mapping. Used in ratings endpoint.",
+  "grade_to_letter": {
+    "1": "A+",
+    "2": "A",
+    "3": "A-",
+    "4": "B+",
+    "5": "B",
+    "6": "B-",
+    "7": "C+",
+    "8": "C",
+    "9": "C-",
+    "10": "D+",
+    "11": "D",
+    "12": "D-",
+    "13": "F"
+  },
+  "quant_rating_scale": {
+    "description": "quantRating, authorsRating, sellSideRating use this scale",
+    "1.0-1.5": "Strong Sell",
+    "1.5-2.5": "Sell",
+    "2.5-3.5": "Hold",
+    "3.5-4.5": "Buy",
+    "4.5-5.0": "Strong Buy"
+  },
+  "factor_grades": [
+    "valueGrade",
+    "growthGrade",
+    "profitabilityGrade",
+    "momentumGrade",
+    "epsRevisionsGrade"
+  ],
+  "dividend_grades": [
+    "dividendYieldGrade",
+    "divSafetyCategoryGrade",
+    "divGrowthCategoryGrade",
+    "divConsistencyCategoryGrade",
+    "dpsRevisionsGrade",
+    "yieldOnCostGrade"
+  ]
+}

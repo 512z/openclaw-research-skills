@@ -1,0 +1,17 @@
+# Credentials and sensitive data
+**/credentials.json
+**/sa_credentials.json
+**/*_credentials.json
+**/*.env
+**/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+venv/
+.venv/
+
+# macOS
+.DS_Store

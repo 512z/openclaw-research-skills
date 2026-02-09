@@ -1,0 +1,309 @@
+{
+  "data": [
+    {
+      "id": "4865889",
+      "type": "article",
+      "attributes": {
+        "publishOn": "2026-02-04T11:52:42-05:00",
+        "isLockedPro": false,
+        "commentCount": 11,
+        "gettyImageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2187328275/image_2187328275.jpg",
+        "videoPreviewUrl": null,
+        "videoDuration": null,
+        "themes": {},
+        "title": "Apple: The Pros And Cons Of Investing Right Now - Downgrading To Hold",
+        "isPaywalled": false,
+        "structuredInsights": null
+      },
+      "relationships": {
+        "author": {
+          "data": {
+            "id": "106592",
+            "type": "author"
+          }
+        },
+        "sentiments": {
+          "data": [
+            {
+              "id": "700188",
+              "type": "sentiment"
+            }
+          ]
+        },
+        "primaryTickers": {
+          "data": [
+            {
+              "id": "146",
+              "type": "tag"
+            }
+          ]
+        },
+        "secondaryTickers": {
+          "data": []
+        },
+        "otherTags": {
+          "data": []
+        }
+      },
+      "links": {
+        "self": "/article/4865889-apple-the-pros-and-cons-of-investing-right-now-downgrading-to-hold"
+      }
+    },
+    {
+      "id": "4865145",
+      "type": "article",
+      "attributes": {
+        "publishOn": "2026-02-03T08:00:34-05:00",
+        "isLockedPro": false,
+        "commentCount": 6,
+        "gettyImageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/458733641/image_458733641.jpg",
+        "videoPreviewUrl": null,
+        "videoDuration": null,
+        "themes": {},
+        "title": "Apple: Capital-Light AI Arbitrage Ignites iPhone Supercycle Alpha",
+        "isPaywalled": false,
+        "structuredInsights": null
+      },
+      "relationships": {
+        "author": {
+          "data": {
+            "id": "108028",
+            "type": "author"
+          }
+        },
+        "sentiments": {
+          "data": [
+            {
+              "id": "699645",
+              "type": "sentiment"
+            },
+            {
+              "id": "699648",
+              "type": "sentiment"
+            },
+            {
+              "id": "699646",
+              "type": "sentiment"
+            },
+            {
+              "id": "699647",
+              "type": "sentiment"
+            }
+          ]
+        },
+        "primaryTickers": {
+          "data": [
+            {
+              "id": "146",
+              "type": "tag"
+            }
+          ]
+        },
+        "secondaryTickers": {
+          "data": []
+        },
+        "otherTags": {
+          "data": []
+        }
+      },
+      "links": {
+        "self": "/article/4865145-apple-capital-light-ai-arbitrage-ignites-iphone-supercycle-alpha"
+      }
+    },
+    {
+      "id": "4865044",
+      "type": "article",
+      "attributes": {
+        "publishOn": "2026-02-02T16:27:53-05:00",
+        "isLockedPro": false,
+        "commentCount": 2,
+        "gettyImageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1833187234/image_1833187234.jpg",
+        "videoPreviewUrl": null,
+        "videoDuration": null,
+        "themes": {},
+        "title": "The iPhone 17 Changed Everything For Apple - See China (Rating Upgrade)",
+        "isPaywalled": false,
+        "structuredInsights": null
+      },
+      "relationships": {
+        "author": {
+          "data": {
+            "id": "107254",
+            "type": "author"
+          }
+        },
+        "sentiments": {
+          "data": [
+            {
+              "id": "699793",
+              "type": "sentiment"
+            },
+            {
+              "id": "700037",
+              "type": "sentiment"
+            },
+            {
+              "id": "700038",
+              "type": "sentiment"
+            }
+          ]
+        },
+        "primaryTickers": {
+          "data": [
+            {
+              "id": "146",
+              "type": "tag"
+            }
+          ]
+        },
+        "secondaryTickers": {
+          "data": []
+        },
+        "otherTags": {
+          "data": []
+        }
+      },
+      "links": {
+        "self": "/article/4865044-the-iphone-17-changed-everything-for-apple-see-china-rating-upgrade"
+      }
+    }
+  ],
+  "included": [
+    {
+      "id": "106592",
+      "type": "author",
+      "attributes": {
+        "company": null,
+        "slug": "bela-lakos",
+        "userId": 56413274,
+        "tagId": 615841,
+        "bio": "Petroleum engineer with an enthusiasm for investing, accounting and personal finances.",
+        "image": {
+          "small": "https://seekingalpha.com/images/users_profile/056/413/274/small_pic.png",
+          "medium": "https://seekingalpha.com/images/users_profile/056/413/274/medium_pic.png",
+          "big": "https://seekingalpha.com/images/users_profile/056/413/274/big_pic.png",
+          "extra_large": "https://seekingalpha.com/images/users_profile/056/413/274/extra_large_pic.png"
+        },
+        "nick": "Bela Lakos",
+        "deactivated": null,
+        "memberSince": 2022,
+        "isRss": false,
+        "contributorSince": 2022,
+        "followersCount": 1483
+      },
+      "relationships": {
+        "user": {
+          "data": {
+            "id": "56413274",
+            "type": "user"
+          }
+        }
+      },
+      "links": {
+        "self": "/author/bela-lakos",
+        "profileUrl": "/author/bela-lakos",
+        "site": null,
+        "linkedinUrl": null,
+        "twitterUrl": null
+      }
+    },
+    {
+      "id": "108028",
+      "type": "author",
+      "attributes": {
+        "company": null,
+        "slug": "esxeleryn-analytics",
+        "userId": 59390483,
+        "tagId": 784872,
+        "bio": "<p>A trader, researcher, and analyst possessing experience spanning years in the domains of US stocks, transnational equities, global indexes, commodities, FX/interest securities, cryptocurrencies, ETFs, options, futures, and CFDs. My expertise encompasses fundamental analysis, technical analysis, quantitative analysis, portfolio management, investment/capital mapping, and programming.</p>",
+        "image": {
+          "small": "https://seekingalpha.com/images/users_profile/059/390/483/small_pic.png",
+          "medium": "https://seekingalpha.com/images/users_profile/059/390/483/medium_pic.png",
+          "big": "https://seekingalpha.com/images/users_profile/059/390/483/big_pic.png",
+          "extra_large": "https://seekingalpha.com/images/users_profile/059/390/483/extra_large_pic.png"
+        },
+        "nick": "Esxeleryn Analytics",
+        "deactivated": null,
+        "memberSince": 2023,
+        "isRss": false,
+        "contributorSince": 2025,
+        "followersCount": 557
+      },
+      "relationships": {
+        "user": {
+          "data": {
+            "id": "59390483",
+            "type": "user"
+          }
+        }
+      },
+      "links": {
+        "self": "/author/esxeleryn-analytics",
+        "profileUrl": "/author/esxeleryn-analytics",
+        "site": null,
+        "linkedinUrl": null,
+        "twitterUrl": null
+      }
+    },
+    {
+      "id": "107254",
+      "type": "author",
+      "attributes": {
+        "company": null,
+        "slug": "uttam-dey",
+        "userId": 59636229,
+        "tagId": 764845,
+        "bio": "<p></p><p>Uttam is a growth-oriented investment analyst whose equity research primarily focuses on the technology sector. Semiconductors, Artificial Intelligence and Cloud software are some of the key sectors that are regularly researched and published by him. His research also focuses on other areas such as MedTech, Defense Tech, and Renewable Energy.</p><p> </p><p>In addition, Uttam also authors The Pragmatic Optimist Newsletter along with his wife, Amrita Roy, who is also an author on the newsletter as well as on this platform. Their newsletter gets regularly cited by leading publications such as the Wall Street Journal, Forbes, etc.</p><p> </p><p>Prior to publishing his research, Uttam worked in Silicon Valley, leading teams for some of the largest technology firms in the world, including Apple and Google.</p>",
+        "image": {
+          "small": "https://seekingalpha.com/images/users_profile/059/636/229/small_pic.png",
+          "medium": "https://seekingalpha.com/images/users_profile/059/636/229/medium_pic.png",
+          "big": "https://seekingalpha.com/images/users_profile/059/636/229/big_pic.png",
+          "extra_large": "https://seekingalpha.com/images/users_profile/059/636/229/extra_large_pic.png"
+        },
+        "nick": "Uttam Dey",
+        "deactivated": null,
+        "memberSince": 2023,
+        "isRss": false,
+        "contributorSince": 2023,
+        "followersCount": 5405
+      },
+      "relationships": {
+        "user": {
+          "data": {
+            "id": "59636229",
+            "type": "user"
+          }
+        }
+      },
+      "links": {
+        "self": "/author/uttam-dey",
+        "profileUrl": "/author/uttam-dey",
+        "site": null,
+        "linkedinUrl": null,
+        "twitterUrl": null
+      }
+    }
+  ],
+  "meta": {
+    "page": {
+      "title": "Apple Inc. (AAPL) Latest Stock Analysis",
+      "description": "Find the latest Apple Inc. AAPL stock analysis from Seeking Alpha\u2019s top analysts: exclusive research and insights from bulls and bears",
+      "listTitle": "Analysis",
+      "listDescription": null,
+      "proStatus": 1,
+      "uriImage": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+      "size": 3,
+      "totalPages": 10,
+      "total": 29,
+      "minmaxPublishOn": {
+        "min": 1770067673,
+        "max": 1770223962
+      }
+    },
+    "mone": {
+      "params": {
+        "pu": ""
+      }
+    }
+  }
+}

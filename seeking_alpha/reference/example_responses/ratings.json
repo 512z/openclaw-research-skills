@@ -1,0 +1,50 @@
+{
+  "data": [
+    {
+      "id": "[146, Sun, 08 Feb 2026]",
+      "type": "rating",
+      "attributes": {
+        "asDate": "2026-02-08",
+        "tickerId": 146,
+        "ratings": {
+          "authorsRating": 3.52174,
+          "sellSideRating": 4.04255,
+          "quantRating": 3.482232651692927,
+          "authorsCount": 23.0,
+          "authorsRatingBuyCount": 6.0,
+          "authorsRatingBuyCount30Day": 6.0,
+          "authorsRatingBuyCount90Day": 11.0,
+          "authorsRatingHoldCount": 12.0,
+          "authorsRatingHoldCount30Day": 12.0,
+          "authorsRatingHoldCount90Day": 21.0,
+          "authorsRatingSellCount": 0.0,
+          "authorsRatingSellCount30Day": 0.0,
+          "authorsRatingSellCount90Day": 4.0,
+          "authorsRatingStrongBuyCount": 4.0,
+          "authorsRatingStrongBuyCount30Day": 4.0,
+          "authorsRatingStrongBuyCount90Day": 4.0,
+          "authorsRatingStrongSellCount": 1.0,
+          "authorsRatingStrongSellCount30Day": 1.0,
+          "authorsRatingStrongSellCount90Day": 2.0,
+          "divConsistencyCategoryGrade": 5,
+          "divGrowthCategoryGrade": 1,
+          "divSafetyCategoryGrade": 3,
+          "dividendYieldGrade": 12,
+          "dpsRevisionsGrade": 4,
+          "epsRevisionsGrade": 5,
+          "growthGrade": 12,
+          "momentumGrade": 4,
+          "profitabilityGrade": 1,
+          "valueGrade": 13,
+          "yieldOnCostGrade": 12
+        }
+      },
+      "meta": {
+        "is_locked": null
+      }
+    }
+  ],
+  "meta": {
+    "hasTodayRatings": true
+  }
+}

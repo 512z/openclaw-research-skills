@@ -1,0 +1,81 @@
+{
+  "data": [
+    {
+      "id": "146",
+      "type": "ticker",
+      "attributes": {
+        "slug": "aapl",
+        "name": "AAPL",
+        "companyName": "Apple Inc.",
+        "equityType": "stocks",
+        "indexGroup": null,
+        "currency": "USD",
+        "exchange": "NASDAQ",
+        "exchangeTitle": "NASDAQ",
+        "tradingViewSlug": "NASDAQ:AAPL",
+        "exchangeDescription": null,
+        "company": "Apple Inc.",
+        "isBdc": false,
+        "visible": true,
+        "searchable": true,
+        "private": false,
+        "pending": false,
+        "isDefunct": false,
+        "followersCount": 2877528,
+        "fundTypeId": 0,
+        "articleRtaCount": 30,
+        "newsRtaCount": 133,
+        "divYieldType": "forward",
+        "mergedOn": null,
+        "primaryEpsConsensusMeanType": "normalized",
+        "isReit": false,
+        "tickerType": "primary"
+      },
+      "relationships": {},
+      "meta": {
+        "companyLogoUrlLight": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/AAPL.svg",
+        "companyLogoUrlDark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/AAPL.svg"
+      }
+    },
+    {
+      "id": "575",
+      "type": "ticker",
+      "attributes": {
+        "slug": "msft",
+        "name": "MSFT",
+        "companyName": "Microsoft Corporation",
+        "equityType": "stocks",
+        "indexGroup": null,
+        "currency": "USD",
+        "exchange": "NASDAQ",
+        "exchangeTitle": "NASDAQ",
+        "tradingViewSlug": "NASDAQ:MSFT",
+        "exchangeDescription": null,
+        "company": "Microsoft Corporation",
+        "isBdc": false,
+        "visible": true,
+        "searchable": true,
+        "private": false,
+        "pending": false,
+        "isDefunct": false,
+        "followersCount": 1342192,
+        "fundTypeId": 0,
+        "articleRtaCount": 34,
+        "newsRtaCount": 149,
+        "divYieldType": "forward",
+        "mergedOn": null,
+        "primaryEpsConsensusMeanType": "normalized",
+        "isReit": false,
+        "tickerType": "primary"
+      },
+      "relationships": {},
+      "meta": {
+        "companyLogoUrlLight": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_light/MSFT.svg",
+        "companyLogoUrlDark": "https://static.seekingalpha.com/cdn/s3/company_logos/mark_vector_dark/MSFT.svg"
+      }
+    }
+  ],
+  "meta": {
+    "count": 2
+  }
+}

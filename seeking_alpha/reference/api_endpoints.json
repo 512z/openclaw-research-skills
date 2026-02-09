@@ -1,0 +1,121 @@
+{
+  "_comment": "Seeking Alpha API v3 - Confirmed working endpoints (tested 2026-02-09)",
+  "base_url": "https://seekingalpha.com",
+  "required_headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "Accept": "application/json"
+  },
+  "endpoints": {
+    "symbol_info": {
+      "method": "GET",
+      "path": "/api/v3/symbols/{ticker}",
+      "description": "Get symbol metadata (company name, exchange, type, followers, etc.)",
+      "params": {
+        "include": {"type": "string", "example": "peers", "optional": true}
+      },
+      "response_type": "single",
+      "key_fields": ["companyName", "exchange", "currency", "equityType", "followersCount", "tradingViewSlug"]
+    },
+    "tickers_batch": {
+      "method": "GET",
+      "path": "/api/v3/tickers",
+      "description": "Batch lookup multiple tickers at once",
+      "params": {
+        "filter[slugs]": {"type": "string", "example": "AAPL,MSFT,GOOGL", "required": true}
+      },
+      "response_type": "list"
+    },
+    "analysis_articles": {
+      "method": "GET",
+      "path": "/api/v3/symbols/{ticker}/analysis",
+      "description": "List analysis/opinion articles for a ticker",
+      "params": {
+        "page[size]": {"type": "int", "default": 10, "max": 40},
+        "page[number]": {"type": "int", "default": 1},
+        "filter[since]": {"type": "int", "description": "Unix timestamp, articles after this time"},
+        "filter[until]": {"type": "int", "description": "Unix timestamp, articles before this time"},
+        "include": {"type": "string", "example": "author,primaryTickers,secondaryTickers"}
+      },
+      "response_type": "list",
+      "key_fields": ["id", "title", "publishOn", "commentCount", "isPaywalled", "isLockedPro", "structuredInsights", "themes"]
+    },
+    "news": {
+      "method": "GET",
+      "path": "/api/v3/symbols/{ticker}/news",
+      "description": "List news articles for a ticker",
+      "params": "same as analysis_articles",
+      "response_type": "list"
+    },
+    "transcripts": {
+      "method": "GET",
+      "path": "/api/v3/symbols/{ticker}/transcripts",
+      "description": "List earnings call transcripts for a ticker",
+      "params": "same as analysis_articles",
+      "response_type": "list"
+    },
+    "press_releases": {
+      "method": "GET",
+      "path": "/api/v3/symbols/{ticker}/press-releases",
+      "description": "List press releases for a ticker",
+      "params": "same as analysis_articles",
+      "response_type": "list"
+    },
+    "related_analysis": {
+      "method": "GET",
+      "path": "/api/v3/symbols/{ticker}/related-analysis",
+      "description": "Related analysis articles",
+      "params": "same as analysis_articles",
+      "response_type": "list"
+    },
+    "ratings": {
+      "method": "GET",
+      "path": "/api/v3/symbols/{ticker}/ratings",
+      "description": "Quant ratings, author ratings, and Wall Street ratings with factor grades",
+      "params": {},
+      "response_type": "list",
+      "key_fields": {
+        "quantRating": "float, 1-5 scale (5=Strong Buy)",
+        "authorsRating": "float, SA authors consensus",
+        "sellSideRating": "float, Wall Street consensus",
+        "valueGrade": "int, 1=A+ to 13=F",
+        "growthGrade": "int, 1=A+ to 13=F",
+        "profitabilityGrade": "int, 1=A+ to 13=F",
+        "momentumGrade": "int, 1=A+ to 13=F",
+        "epsRevisionsGrade": "int, 1=A+ to 13=F",
+        "dividendYieldGrade": "int",
+        "divSafetyCategoryGrade": "int",
+        "divGrowthCategoryGrade": "int",
+        "divConsistencyCategoryGrade": "int"
+      }
+    },
+    "dividend_history": {
+      "method": "GET",
+      "path": "/api/v3/symbols/{ticker}/dividend_history",
+      "description": "Full dividend payment history",
+      "params": {
+        "page[size]": {"type": "int", "default": 20}
+      },
+      "response_type": "list",
+      "key_fields": ["amount", "adjusted_amount", "ex_date", "pay_date", "record_date", "declare_date", "freq", "type", "year", "split_adj_factor"]
+    },
+    "article_detail": {
+      "method": "GET",
+      "path": "/api/v3/articles/{article_id}",
+      "description": "Get article detail with content preview and summary bullets",
+      "params": {
+        "include": {"type": "string", "example": "author,primaryTickers,secondaryTickers,sentiments"}
+      },
+      "response_type": "single",
+      "key_fields": ["title", "publishOn", "content", "summary", "disclosure", "commentCount", "likesCount", "isPaywalled", "isLockedPro"],
+      "notes": "content is HTML preview (~300 words). summary is array of bullet-point strings."
+    },
+    "market_open": {
+      "method": "GET",
+      "path": "/api/v3/market_open",
+      "description": "Check if market is currently open",
+      "params": {},
+      "response_type": "single",
+      "key_fields": ["marketOpen", "nextMarketOpen", "nextMarketClose"]
+    }
+  }
+}

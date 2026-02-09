@@ -1,0 +1,11 @@
+{
+  "data": {
+    "id": "0",
+    "type": "marketOpen",
+    "attributes": {
+      "marketOpen": false,
+      "nextMarketOpen": 1770647400,
+      "nextMarketClose": 1770670800
+    }
+  }
+}
